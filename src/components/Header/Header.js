@@ -25,7 +25,7 @@ const Header = (props) => {
                                value={search}
                                onChange={handleChange}
                                type="text"
-                               placeholder="Search..."/>
+                               placeholder="Search...."/>
                     </div>
                 </div>
     )
