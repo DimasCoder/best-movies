@@ -46,7 +46,7 @@ class MoviePage extends Component {
         return (
                 <div className="movie-page">
                     <div className="movie-page__inner">
-                        <img src={image} />
+                        <img src={image} alt={this.props.location.state.title + " image"}/>
                         <div className="movie-info">
                             <h3>{this.props.location.state.title}</h3>
                             <h4>Year: <span>{this.toYearFormat(this.props.location.state.release_date)}</span></h4>
